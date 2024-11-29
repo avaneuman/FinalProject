@@ -1,0 +1,76 @@
+.wholepage {
+    width: 1375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 1375px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+.banner{
+    width: 1375px;
+    background-color: rgb(236, 78, 104);
+    height: 475px;
+    display: flex;
+}
+
+.ourstory{
+    width: 1375px;
+    height: 500px;
+    background-color: rgb(35, 149, 12);
+    display: flex;
+}
+
+.bestsellers{
+    width: 1375px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+}
+
+.quote{
+    width: 1375px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.gallery{
+    width: 1375px;
+    height: 500px;
+    background-color: pink;
+    display: flex;
+}
+
+.reasons{
+    width: 1375px;
+    height: 300px;
+    background-color: lightcoral;
+    display: flex;
+}
+
+.locations{
+    width: 1375px;
+    height: 450px;
+    background-color: palegoldenrod;
+    display: flex;
+}
+
+.footer{
+    width: 1375px;
+    height: 110px;
+    background-color: palevioletred;
+    display: flex;
+}
+
+.ccoriginal{
+    display: flex;
+}
+
+.ccblack{
+    display: flex;
+}
