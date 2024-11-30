@@ -53,11 +53,13 @@
     display: flex;
 }
 
-.locations{
+.locations {
     width: 1375px;
-    height: 450px;
-    background-color: palegoldenrod;
+    height: 600px;
+    background-color: rgb(240, 233, 214);
     display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .footer{
@@ -67,10 +69,86 @@
     display: flex;
 }
 
-.ccoriginal{
+.ccoriginal {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ccblack{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+}
+
+.box {
+    width: 600px;
+    height: 550px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.locationtextbox {
+    width: 600px;
+    height: 295px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nameoflocation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    text-indent: 30px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.directionsbutton {
+    display: flex;
+    width: 150px;
+    height: 35px;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
+.twelvept{
+    font-size: 12px;
 }
