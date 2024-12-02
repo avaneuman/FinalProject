@@ -4,17 +4,58 @@
     <meta charset="UTF-8">
     <title>Coffee Cube</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
     <div class="wholepage">
         <div class="header"></div>
         <div class="banner"></div>
-        <div class="ourstory"></div>
+        <div class="ourstory">
+            <div class="leftside">
+                <div class="ourstorytitle">
+                    <span>OUR STORY</span>
+                </div>
+                <div class="fifteenpt">
+                    <span>
+                        At Coffee Cube, our story is steeped in the aroma of passion and brewed with dedication. Nestled near the iconic Prašná Brána 
+                        in the heart of Staré Město and with another welcoming spot in the bustling area of Můstek, we’ve built more 
+                        than just coffee shops—we’ve cultivated communities. Our journey began with a simple mission: to craft exceptional 
+                        coffee while creating warm, inviting spaces where everyone feels at home. <br> <br> From sourcing ethically-grown beans to perfecting 
+                        the art of the pour, every detail matters. Each cup tells a story—of the farmers who grow with care, the baristas who pour with 
+                        skill, and the customers who bring it all to life. Whether you’re seeking a cozy corner to savor your favorite brew, a space to 
+                        connect with friends, or just a moment of solace in your busy day, Coffee Cube is here for you. Come be part of our story, one sip at a time.
+                    </span>
+                </div>
+                <div class="ourstorybutton">
+                    <a href="#locationsid" class="nounderline">
+                        <span class="fifteenpt bold">VIEW OUR LOCATIONS</span>
+                    </a>
+                </div>
+            </div>
+            <div class="rightside">
+                <div>
+                    <img src="./assets/our_story/ourstory.jpg" alt="OurStory">
+                </div>
+            </div>
+        </div>
         <div class="bestsellers"></div>
         <div class="quote"></div>
         <div class="gallery"></div>
-        <div class="reasons"></div>
-        <div class="locations">
+        <div class="reasons">
+            <div class="iconanddescription">
+                <i class="ph ph-coffee-bean reasonsicon"></i>
+                <span class="twelvept bold">We source only the finest coffee beans to ensure every cup is rich, flavorful, and unforgettable.</span>
+            </div>
+            <div class="iconanddescription">
+                <i class="ph ph-coffee reasonsicon"></i>
+                <span class="twelvept bold">From classic coffees to creative specialties, there's a drink for everyone to enjoy.</span>
+            </div>
+            <div class="iconanddescription">
+                <i class="ph ph-users-three reasonsicon"></i>
+                <span class="twelvept bold">More than just a coffee shop, we’re a hub for connection, conversation, and bringing people together.</span>
+            </div>
+        </div>
+        <div class="locations" id="locationsid">
             <div class="ccoriginal">
                 <div class="box">
                     <img src="./assets/locations/ccoriginal.jpg" alt="Original">
@@ -29,9 +70,9 @@
                         <div class="address">
                             <span class="bold">Address</span>
                             <span class="twelvept">Jakubská, 110 00 Staré Město
-                                Prague 1, Czechia </span>
+                                Prague 1, Czechia <br> <br> </span>
                         </div>
-                        <div class="directionsbutton">
+                        <div class="rectanglebutton">
                             <a href="https://maps.app.goo.gl/kKwzKGAfykzfsXSD7" target="_blank" class="nounderline">
                                 <span class="bold twelvept">GET DIRECTIONS</span>
                             </a>
@@ -48,14 +89,14 @@
                     <div class="locationtextbox">
                         <div class="hours">
                             <span class="bold">Hours</span>
-                            <span class="twelvept">Monday-Friday: 8:30-19 <br> Saturday-Sunday: 10-18</span>
+                            <span class="twelvept">Monday-Friday: 8:30-19 <br> Saturday-Sunday: 10-18 <br> <br> </span>
                         </div>
                         <div class="address">
                             <span class="bold">Address</span>
                             <span class="twelvept">Jungmannovo nám. 6/767, 110 00 Můstek
                                 Prague 1, Czechia  </span>
                         </div>
-                        <div class="directionsbutton">
+                        <div class="rectanglebutton">
                             <a href="https://maps.app.goo.gl/DK7F3yAyLxc5UHum6" target="_blank" class="nounderline">
                                 <span class="bold twelvept">GET DIRECTIONS</span>
                             </a>
@@ -64,7 +105,12 @@
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <div class="logo"></div>
+            <div class="links"></div>
+            <div class="visitus"></div>
+            <div class="socials"></div>
+        </div>
     </div>
 </body>
 </html>
