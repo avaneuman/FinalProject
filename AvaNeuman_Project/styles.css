@@ -16,38 +16,6 @@ body {
     align-items: center;
 }
 
-.header {
-    width: 1375px;
-    height: 70px;
-    background-color: rgb(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 67rem;
-}
-
-.banner {
-    width: 1375px;
-    background-color: rgb(225, 200, 169);
-    height: 550px;
-    display: flex;
-    background-image: url(assets/banner/bannerimage.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.ourstory {
-    width: 1375px;
-    height: 500px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .bestsellers{
     width: 1375px;
     height: 550px;
@@ -79,33 +47,12 @@ body {
     gap: 8rem;
 }
 
-.locations {
-    width: 1375px;
-    height: 600px;
-    background-color: rgb(240, 233, 214);
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-}
-
 .footer{
     width: 1372px;
     height: 200px;
     background-color: rgb(240, 233, 214);
     display: flex;
     border: solid;
-}
-
-.ccoriginal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ccblack{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 img {
@@ -121,41 +68,6 @@ img {
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-}
-
-.locationtextbox {
-    width: 600px;
-    height: 295px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.nameoflocation {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    display: flex;
-    justify-content: flex-start;
-    text-indent: 30px;
-}
-
-.hours{
-    display: flex;
-    flex-direction: column;
-    width: 175px;
-    gap: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.address{
-    display: flex;
-    flex-direction: column;
-    width: 175px;
-    gap: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .rectanglebutton {
@@ -183,6 +95,91 @@ img {
 .twelvept{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fifteenpt{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.whiteicon {
+    color: white;
+    font-size: 40px;
+}
+
+/* CSS for Header */
+
+.header {
+    width: 1375px;
+    height: 70px;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67rem;
+}
+
+/* CSS for Banner */
+
+.banner {
+    width: 1375px;
+    background-color: rgb(225, 200, 169);
+    height: 550px;
+    display: flex;
+    background-image: url(assets/banner/bannerimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bannertext {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.welcometext {
+    color: white;
+    font-size: 70px;
+}
+
+.welcomebody {
+    color: white;
+    font-size: 25px;
+}
+
+.header img {
+    width: 220px; 
+    height: 45px; 
+    filter: invert(100%);
+} 
+
+.bannerbutton {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(21, 43, 60);
+}
+
+/* CSS for Our Story */
+
+.ourstory {
+    width: 1375px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .leftside {
@@ -216,66 +213,79 @@ img {
     font-size: 30px;
 }
 
-.fifteenpt{
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
-}
-
 .ourstory img {
     width: 500px; 
     height: 400px; 
 }
 
-.reasonsicon {
-   font-size: 80px;
+/* CSS for Locations */
+
+.locations {
+    width: 1375px;
+    height: 600px;
+    background-color: rgb(240, 233, 214);
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
-.iconanddescription {
+.nameoflocation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
     display: flex;
-    width: 300px;
+    justify-content: flex-start;
+    text-indent: 30px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ccoriginal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccblack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationtextbox {
+    width: 600px;
+    height: 295px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    align-items: center;
 }
 
-.header img {
-    width: 220px; 
-    height: 45px; 
-    filter: invert(100%);
-}
+/* CSS for Reasons */
 
-.whiteicon {
-    color: white;
-    font-size: 40px;
-}
-
-.bannerbutton {
-    display: flex;
-    width: 300px;
-    height: 40px;
-    border: solid;
-    justify-content: center;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(21, 43, 60);
-}
-
-.bannertext {
-    display: flex;
-    height: 500px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.welcometext {
-    color: white;
-    font-size: 70px;
-}
-
-.welcomebody {
-    color: white;
-    font-size: 25px;
-}
+.reasonsicon {
+    font-size: 80px;
+ }
+ 
+ .iconanddescription {
+     display: flex;
+     width: 300px;
+     justify-content: center;
+     gap: 1rem;
+     align-items: center;
+ }
