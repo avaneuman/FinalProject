@@ -229,26 +229,40 @@
     height: 375px;
     background-color: rgb(149, 190, 159);
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .quoteleft {
     display: flex;
+    align-items: center;
+    width: 650px;
 }
 
 .quoteright {
     display: flex;
+    width: 650px;
+    justify-content: center;
     align-items: center;
 }
 
 .quotetextmain {
     display: flex;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
-.quotetextsmall {
-    display: flex;
+.quotetextmain::before {
+    content: ''; 
+    font-family: 'Phosphor';
+    transform: scaleX(-1);
+    font-size: 3rem;
+}
+
+.quotetextmain::after {
+    content: ''; 
+    font-family: 'Phosphor';
+    font-size: 3rem;
 }
 
 .quote img {
