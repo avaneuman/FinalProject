@@ -66,6 +66,13 @@
     background-color: rgb(21, 43, 60);
 }
 
+.wholeheader {
+    width: 1375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* CSS for Our Story */
 
 .ourstory {
@@ -215,6 +222,40 @@
     gap: 8rem;
 }
 
+/* CSS for Quote */
+
+.quote {
+    width: 1375px;
+    height: 375px;
+    background-color: rgb(149, 190, 159);
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.quoteleft {
+    display: flex;
+}
+
+.quoteright {
+    display: flex;
+    align-items: center;
+}
+
+.quotetextmain {
+    display: flex;
+    color: white;
+}
+
+.quotetextsmall {
+    display: flex;
+}
+
+.quote img {
+    width: 500px; 
+    height: 300px; 
+}
+
 /* CSS for Website */
 
 body {
@@ -228,24 +269,10 @@ body {
     align-items: center;
 }
 
-.wholeheader {
-    width: 1375px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .bestsellers{
     width: 1375px;
     height: 550px;
     background-color: black;
-    display: flex;
-}
-
-.quote{
-    width: 1375px;
-    height: 300px;
-    background-color: lightblue;
     display: flex;
 }
 
