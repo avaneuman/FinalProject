@@ -59,7 +59,7 @@
 
 .bannerbutton {
     display: flex;
-    width: 300px;
+    width: 150px;
     height: 40px;
     border: solid;
     justify-content: center;
@@ -79,7 +79,7 @@
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 /* CSS for Our Story */
 
@@ -242,12 +242,12 @@
 .quoteleft {
     display: flex;
     align-items: center;
-    width: 650px;
+    width: 670px;
 }
 
 .quoteright {
     display: flex;
-    width: 650px;
+    width: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -255,8 +255,8 @@
 .quotetextmain {
     display: flex;
     color: white;
-    font-family: "Spline Sans", sans-serif;
-    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
     text-align: center;
 }
 
@@ -274,8 +274,74 @@
 }
 
 .quote img {
-    width: 500px; 
+    width: 475px; 
     height: 300px; 
+}
+
+/* CSS for Footer */
+
+.footer{
+    width: 1372px;
+    height: 200px;
+    background-color: rgb(240, 233, 214);
+    display: flex;
+    border: solid;
+}
+
+.footerleft{
+    display: flex;
+    width: 1000px;
+
+}
+
+.footerright{
+    display: flex;
+    width: 350px;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.footer img {
+    width: 210px; 
+    height: 50px; 
+}
+
+.logofoot {
+    display: flex;
+    padding-top: 2rem;
+    width: 300px;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.visitus {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerlocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.bothlocations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
 }
 
 /* CSS for Font Size and Style */
@@ -300,7 +366,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 }
-
 
 .white {
     color: white;
@@ -332,30 +397,20 @@ body {
     display: flex;
 }
 
-.gallery{
-    width: 1375px;
-    height: 500px;
-    background-color: pink;
-    display: flex;
-}
-
-.footer{
-    width: 1372px;
-    height: 200px;
-    background-color: rgb(240, 233, 214);
-    display: flex;
-    border: solid;
-}
-
 img {
     width: 600px;
     height: 340px;
 }
 
-.nounderline{
+.linkstyle{
     text-decoration: none;
+    color: inherit;
 }
 
-.nounderline:visited {
+.linkstyle:visited {
     color: inherit;
+}
+
+.linkstyle:hover {
+    color: #50836e;
 }
