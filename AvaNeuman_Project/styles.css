@@ -278,6 +278,71 @@
     height: 300px; 
 }
 
+/* CSS for Best Sellers */
+
+.bestsellers {
+    width: 1375px;
+    height: 550px;
+    background-color: rgb(240, 233, 214);
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftthird {
+    display: flex;
+    width: 200px;
+}
+
+.menumiddle {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+}
+
+.rightthird {
+    display: flex;
+    width: 200px;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.bestsellers img {
+    width: 180px; 
+    height: 270px; 
+}
+
+.menutop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.menubottom {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menucolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.drink {
+    display: flex;
+    flex-direction: row;
+}
+
+.drink img {
+    width: 75px; 
+    height: 75px; 
+}
+
 /* CSS for Footer */
 
 .footer{
@@ -388,13 +453,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.bestsellers{
-    width: 1375px;
-    height: 550px;
-    background-color: rgb(240, 233, 214);
-    display: flex;
 }
 
 img {
