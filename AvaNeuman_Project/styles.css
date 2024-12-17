@@ -188,7 +188,7 @@
 }
 
 .locationtextbox {
-    width: 600px;
+    width: 100%;
     height: 295px;
     display: flex;
     align-items: center;
@@ -290,6 +290,8 @@
 .quote img {
     width: 475px; 
     height: 300px; 
+    border: solid;
+    border-color: rgb(21, 43, 60);
 }
 
 /* CSS for Best Sellers */
@@ -305,11 +307,13 @@
 
 .leftthird {
     display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .menumiddle {
     display: flex;
-    width: 900px;
     flex-direction: column;
     gap: 1.5rem;
 }
@@ -318,11 +322,18 @@
     display: flex;
     align-items: flex-end;
     flex-direction: row-reverse;
+    flex: 1;
 }
 
 .bestsellers img {
-    width: 180px; 
-    height: 270px; 
+    width: 50%; 
+    height: auto; 
+}
+
+.rightthird img, .leftthird img {
+    width: 55%; 
+    height: auto; 
+    min-width: 80px;
 }
 
 .menutop img {
@@ -349,6 +360,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: center;
 }
 
 .drink {
@@ -410,10 +422,10 @@
     padding-bottom: 1.5rem;
 }
 
-.footerleft{
+.footerleft {
     display: flex;
     width: 1000px;
-
+    gap: 1rem;
 }
 
 .footerright{
@@ -529,6 +541,8 @@ img {
     color: #50836e;
 }
 
+/* CSS for Responsiveness */
+
 @media screen and (max-width: 991px) {
     .welcomebody {
         font-size: 20px;
@@ -558,6 +572,26 @@ img {
     .reasons {
         flex-direction: column;
     }
+    .quotetextmain {
+        font-size: 20px;
+    }
+    .locations {
+        flex-direction: column;
+    }
+    .footerleft {
+        font-size: 10px;
+        gap: 0rem;
+    }
+    .links {
+        width: 100px;
+    }
+    .footer img {
+        width: 170px; 
+        height: 30px; 
+    }
+    .logofoot {
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -578,13 +612,13 @@ img {
         width: 400px; 
         height: 225px; 
     }
-}
-
-@media screen and (min-width: 1200px) {
-    .welcomebody {
-        font-size: 25px;
+    .quotetextmain {
+        font-size: 23px;
     }
-    .bannerbutton {
-        font-size: 15px;
+    .locations {
+        flex-direction: column;
+    }
+    .links {
+        width: 100px;
     }
 }
